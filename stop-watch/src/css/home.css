@@ -1,0 +1,41 @@
+.home-container {
+  height: 216px;
+  width: 349px;
+  
+  background-color: var(--timer-background-color);
+}
+.clock-container{
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.clock{
+    color: var(--secondary-text-color);
+    margin: 0 0.5rem;
+}
+.clockNum{
+    font-size: 3rem;
+    padding: 0.2rem;
+}
+.divider{
+    background-color: var(--secondary-button-color);
+    height: 1px;
+}
+.fotter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+}
+.btn{
+    margin: 20px;
+    background-color: var(--primary-button-color);
+    padding: 10px 15px;
+    border: none;
+
+}
+.btn:last-child{
+    background-color: var(--secondary-button-color);
+}

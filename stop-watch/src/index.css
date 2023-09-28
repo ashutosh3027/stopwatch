@@ -1,0 +1,25 @@
+:root {
+  /* Black BG [App BG] */
+  --app-background-color: #0e0e0e;
+
+  /* Off Black BG [Timer component BG] */
+  --timer-background-color: #202124;
+
+  /* BLUE COLOR */
+  --primary-button-color: #8ab4f8;
+
+  /* GREY COLOR */
+  --secondary-button-color: #bdc1c6;
+
+  /* BLACK TEXT */
+  --primary-text-color: #202124;
+
+  /* WHITE TEXT */
+  --secondary-text-color: #e7eaed;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
